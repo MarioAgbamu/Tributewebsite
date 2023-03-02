@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+  }
+
+
+  #display {
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: goldenrod;
+    color: white;
+  }
+
+  h1{
+    color: white ;
+      font-family: Copperplate;
+      font-size: 25px;
+      text-align: center;
+  }
+  p {
+    margin: 10px 0;
+  }
+  .name, .comment {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+
+  .footer-text {
+    color: goldenrod;
+ height: 80px;
+ width: 100%;
+ text-align: center;
+ padding-top: 30px;
+ }
+ 
+ .footer-main {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 90px;
+    font-size: 20px;
+ }
+ .footer-text-2 {
+    text-decoration: none !important;
+    color: white !important;
+    background: none;
+    transition: text-shadow 0.3s ease;
+ }
+ 
+ .footer-text-2:hover{
+    cursor: pointer;
+    color: goldenrod !important;
+ 
+ }
+ 

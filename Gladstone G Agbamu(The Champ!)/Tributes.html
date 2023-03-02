@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute</title>
+
+    <link rel="stylesheet" href="styles/tribute.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+
+
+<script src="my.js"></script>
+<script src="https://kit.fontawesome.com/d458b61e48.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="loader"></div>
+      </div>
+
+
+
+    <nav class="navbar">
+        <h1> The Champ  <span style="color: goldenrod;"> G  </span>  <span> . G  </span> </h1>
+      </nav>
+
+
+
+<form id="form" action="display.html" method="GET" target="_blank">
+    <div>
+        <h3>Enter Your Tributes To ("The Champ")</h3>
+        <div>
+        <input type="text" placeholder="First Name" id="name" minlength="5" maxlength="15" class="Input" required>
+        </div>
+ 
+        <div>
+        <textarea  id="comment" name="comment" cols="50" rows="10" required minlength="5" maxlength="250" class="text" placeholder="Enter Your Tribute Here" style="border: none !important;" ></textarea>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree" style="font-size: 10px;"> I'm acknowledge that my tribute is well constructed and will be posted for any user who writes a tribute to see.</label>
+        </div>
+
+    </div>
+    <div>
+        <button onclick="submitForm()" value="Submit">
+            <a href="#" class="button-text"> Proceed <i class="fa-solid fa-arrow-right"></i> </a>
+          </button>
+
+       <button>
+        <a href="index.html" class="button-text"> Home <i class="fa-solid fa-house"></i>  </a> 
+       </button>
+    </div>
+
+</form>
+
+
+<footer class="footer-1">
+
+    <img src="images/Mario_wEb3-2-removebg-preview.png" alt="">
+           <p class="footer-2"> Designed and Developed By <a href="about.html" class="footer-text"> Mario</a> with &hearts; 2023 <sup> </p>
+           </footer>
+
+
+
+
+</body>
+</html>
+
+
+
