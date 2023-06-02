@@ -1,9 +1,5 @@
 body {
    background-color: black !important;
- width: 100%;
- height: 100%;
- margin: auto;
- padding: auto;
  border-bottom: none !important;
  
 }
@@ -20,21 +16,25 @@ nav h1{
    padding-right: 15%;
 }
 
+
 nav h1::first-letter{
    color: goldenrod;
 }
 
 .nav-link{
    text-transform: uppercase;
+   color: white !important;
+   width: 16%;
+   padding-left: 1% !important;
+}
+.nav-link:last-child{
+   padding-left: 1% !important;
 }
 
 .nav-link:hover {
    background-color: goldenrod;
-   padding: 2px 2px;
    border-radius: 5px;
-   transform: translateY(-0.10em);
-   color: black !important;
- 
+   color: #000 !important; 
 }
 
 
