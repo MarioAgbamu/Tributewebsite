@@ -1,56 +1,47 @@
 
-
 body {
-   background-color: black !important;
- width: 100%;
- height: 100%;
- margin: auto;
- padding: auto;
- border-bottom: none !important;
- 
+background-color: black !important;
 }
 
-section{
-   margin: 5% 0 7% 0;
-   border-bottom: none !important;
+#sec-main{
+   border: 1px solid rgb(49, 49, 49);
+   margin-bottom: 50px;
+   padding: 20px 0;
 }
 
-
-
-.sec-text{
+#sec-text{
    color: white;
    font-family: Copperplate;
    font-size: 25px;
-   text-align: right;
    padding-left: 35px;
    padding-right: 10px;
 }
 
-.section-h1{
+#section-h1{
    color: rgb(254, 188, 22);
       font-family: Copperplate;
-      font-size: 25px;
-      text-align: right;
+      padding-left: 35px;
       padding-right: 10px;
 }
 
-section h3{
+section h6{
    color: rgb(254, 188, 22);
    font-family: 'Satisfy', cursive;
-   font-size: 30px;
-   font-weight: 400;
+   font-size: 15px;
+   font-weight: 100;
    font-style: italic;
    text-align: right;
    padding-right: 20px;
 }
 
-
+.sec-img{
+   margin: 15px 0 40px 0;
+}
 .img1{
-   width: 40%;
-   border: 1px dashed white;
-   border-radius: 50%;
-   padding: 3px;
-   margin: 20px 0 0 20px;
+   width: 65%;
+   border-radius: 10px;
+   padding: 2.5px;
+   margin-left: 10px;
 }
 
 nav h1{
@@ -69,34 +60,26 @@ nav h1::first-letter{
 .nav-link{
    text-transform: uppercase;
    color: white !important;
+   width: 16%;
+   padding-left: 1% !important;
+}
+.nav-link:last-child{
+   padding-left: 1% !important;
 }
 
 .nav-link:hover {
    background-color: goldenrod;
-   padding: 2px 2px;
    border-radius: 5px;
-   color: #000 !important;
- 
+   color: #000 !important; 
 }
 
 
-footer {
- width: 100%;
-   background-color: goldenrod;
-   height: 9vh;
-}
 
-.footer-1 img{
-   width: 8%;
-   float: left;
-
-}
-
-.footer-1 {
+.footer-1{
    font-family: 'Roboto Slab', serif;
-   font-size: 25px;
+   font-size: 20px;
    text-align: center;
-   padding-top: 10px;
+   color: goldenrod;
 }
 
 .footer-text {
@@ -144,14 +127,7 @@ footer {
 
 
  
-@media screen and (max-width: 500px){ 
-
-body{
-   height: none;
-   padding: none;
-}
-}
-@media screen and (max-width: 500px){
+@media screen and (max-width: 748px){
    nav h1{
       font-size: 25px;
          }
@@ -171,29 +147,29 @@ body{
       }
        
 }
-@media screen and (max-width: 600px){
-   .section-h1{
-      font-size: 17px;
+@media screen and (max-width: 540px){
+   #section-h1{
+      font-size: 5px;
+      text-align: none;
+      padding: 5px;
    }
    .sec-text{
       font-size: 22px;
    }
 .img1{
-   width: 50%;
+   width: 90%;
 }
 .sec-img{
-   padding-bottom: 50px;
+   padding-bottom: 5px;
 }
-footer{
-   height: 9.5vh;
+#sec-text{
+   padding: 5px;
+   font-size: 15px;
+   text-align: none;
 }
 
 .footer-1{
    font-size: 14px;
-}
-
-.footer-1 img{
-   width: 15%;
 }
 
 }
